@@ -11,32 +11,52 @@ namespace ver4_biblTeo
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BookDb>());
 
             var user1 = new ApplicationInstance();
-            var bookDb = new BookDb();
-
-            int opt;
-
-            do
+            try
             {
-                Console.WriteLine("0. EXIT");
-                Console.WriteLine("1. Adauga carte");
-                Console.WriteLine("2. Afiseaza toate cartile");
-                Console.WriteLine("3. Afiseaza cartile de la autorul X");
-                Console.WriteLine("4. Afiseaza cartile imprumutate");
+                Book b = new Book(1, "titlu", "autor", "detalii bla bla", "la mata");
+                BookDb db = new BookDb();
 
-                Console.Write("Alegere: ");
-                opt = int.Parse(Console.ReadLine());
+                //db.Books.Add(b);
+                //db.SaveChanges();
+                Console.WriteLine(b);
 
-                switch (opt)
-                {
-                    case 1:
-                        var bk = user1.AdaugaCarte();
-                        bookDb.Books.Add(bk);
-                        break;
-                }
 
+                Client nou = new Client("theodor", "samson", "0752834925", "sucedava");
+                //console.writeline(nou);
+                nou.adaugaCarte(b);
+                Console.WriteLine(nou);
+                nou.afiseazaCartile();
 
             }
-            
+            catch (ArgumentException e)
+            {
+                Console.WriteLine("{0}: {1}", e.GetType().Name, e.Message);
+            }
+
+            //int opt;
+
+            //do
+            //{
+            //    Console.WriteLine("0. EXIT");
+            //    Console.WriteLine("1. Adauga carte");
+            //    Console.WriteLine("2. Afiseaza toate cartile");
+            //    Console.WriteLine("3. Afiseaza cartile de la autorul X");
+            //    Console.WriteLine("4. Afiseaza cartile imprumutate");
+
+            //    Console.Write("Alegere: ");
+            //    opt = int.Parse(Console.ReadLine());
+
+            //    switch (opt)
+            //    {
+            //        case 1:
+            //            var bk = user1.AdaugaCarte();
+            //            bookDb.Books.Add(bk);
+            //            break;
+            //    }
+
+
+            //}
+
         }
     }
 

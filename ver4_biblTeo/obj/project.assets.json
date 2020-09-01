@@ -1025,23 +1025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bobel\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Theo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\ver4_biblTeo.csproj",
+      "projectUniqueName": "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
       "projectName": "ver4_biblTeo",
-      "projectPath": "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\ver4_biblTeo.csproj",
-      "packagesPath": "C:\\Users\\Bobel\\.nuget\\packages\\",
-      "outputPath": "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\obj\\",
+      "projectPath": "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
+      "packagesPath": "C:\\Users\\Theo\\.nuget\\packages\\",
+      "outputPath": "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Bobel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Theo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

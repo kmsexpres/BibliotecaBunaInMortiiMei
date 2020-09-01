@@ -4,13 +4,15 @@ using System.Text;
 
 namespace ver4_biblTeo
 {
-    class Book
+    class Book 
     {
         public int ID { get; set; }    //nr inventariere gen
         public string Titlu { get; set; }
         public string Autor { get; set; }
         public string Detalii { get; set; }
         public bool EsteImprumutata { get; set; }
+        public DateTime returnare { get; set; }//cred ca DateTime e variabila pt asta nuj -> daca EsteImprumutata e true atunci trebuie introdusa o data pt returnare
+
         public Client SeAflaLa { get; set; }     //ori e in biblioteca, 
                                                  //ori e imprumutata la un om si contine datele acestuia
                                                  //biblioteca poate fi considerata ca un "client" special, 
@@ -31,10 +33,20 @@ namespace ver4_biblTeo
 
         public Book(int ID, string titlu, string autor, string detalii, string seAflaLa)
         {
+
+            if (ID < 0) throw new ArgumentException("Trebuie sa introduceti un ID pozitiv");
+
+            if (titlu == null || titlu == "") throw new ArgumentException("Trebuie sa introduceti titlul cartii");
+
+            if (autor == null || autor == "") throw new ArgumentException("Trebuie sa introduceti numele autorului");
+
+
             this.ID = ID;
             this.Titlu = titlu;
             this.Autor = autor;
             this.Detalii = detalii;
+
+
             // this.SeAflaLa = asta este un nume de client, 
                 // trebuie cautat in baza de date si returnat clientu respectiv
 
