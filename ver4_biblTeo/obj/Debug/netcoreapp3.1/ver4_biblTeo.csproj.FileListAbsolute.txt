@@ -66,3 +66,16 @@ D:\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\runtimes\win\l
 D:\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.csproj.CopyComplete
 D:\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.genruntimeconfig.cache
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.csprojAssemblyReference.cache
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.AssemblyInfoInputs.cache
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.AssemblyInfo.cs
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.csproj.CoreCompileInputs.cache
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.dll
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.pdb
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\ver4_biblTeo.dll.config
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\ver4_biblTeo.deps.json
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\ver4_biblTeo.runtimeconfig.json
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\ver4_biblTeo.runtimeconfig.dev.json
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\ver4_biblTeo.dll
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\bin\Debug\netcoreapp3.1\ver4_biblTeo.pdb
+D:\PROIECTE VIS STUD\BibliotecaBunaInMortiiMei\ver4_biblTeo\obj\Debug\netcoreapp3.1\ver4_biblTeo.genruntimeconfig.cache

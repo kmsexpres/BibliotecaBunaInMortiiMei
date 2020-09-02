@@ -5,8 +5,8 @@ using System.Text;
 
 namespace ver4_biblTeo
 {
-    class BookDb : DbContext
+    public class BookDb : DbContext
     {
-        public DbSet<Book> Books{ get; set; }
+        DbSet<Book> Books { get; set; }
     }
 }

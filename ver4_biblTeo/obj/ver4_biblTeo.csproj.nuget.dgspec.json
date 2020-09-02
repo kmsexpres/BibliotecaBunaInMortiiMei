@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj": {}
+    "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj": {}
   },
   "projects": {
-    "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj": {
+    "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
+        "projectUniqueName": "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
         "projectName": "ver4_biblTeo",
-        "projectPath": "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
-        "packagesPath": "C:\\Users\\Theo\\.nuget\\packages\\",
-        "outputPath": "D:\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\obj\\",
+        "projectPath": "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
+        "packagesPath": "C:\\Users\\toder\\.nuget\\packages\\",
+        "outputPath": "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Theo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\toder\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
