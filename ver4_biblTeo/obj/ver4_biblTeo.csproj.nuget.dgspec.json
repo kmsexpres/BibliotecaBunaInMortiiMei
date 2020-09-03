@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj": {}
+    "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\ver4_biblTeo.csproj": {}
   },
   "projects": {
-    "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj": {
+    "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\ver4_biblTeo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
+        "projectUniqueName": "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\ver4_biblTeo.csproj",
         "projectName": "ver4_biblTeo",
-        "projectPath": "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\ver4_biblTeo.csproj",
-        "packagesPath": "C:\\Users\\toder\\.nuget\\packages\\",
-        "outputPath": "D:\\PROIECTE VIS STUD\\BibliotecaBunaInMortiiMei\\ver4_biblTeo\\obj\\",
+        "projectPath": "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\ver4_biblTeo.csproj",
+        "packagesPath": "C:\\Users\\Bobel\\.nuget\\packages\\",
+        "outputPath": "D:\\ProgVisStud2019\\ver4_biblTeo\\ver4_biblTeo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\toder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bobel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,9 +41,29 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.4.4, )"
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -61,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

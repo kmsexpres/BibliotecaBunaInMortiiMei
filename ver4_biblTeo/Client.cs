@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ver4_biblTeo
 {
-    class Client
+    public class Client
     {
         // gen om care imprumuta
         public int ID { get; set; }
@@ -49,6 +49,11 @@ namespace ver4_biblTeo
         {
             return
                 $"{this.Nume}, {this.Prenume}, {this.Telefon}, {this.Adresa}, {this.cartiImprumutate}";
+        }
+
+        public static Client GetFakeBiblioteca()
+        {
+            return new Client("Biblioteca", "Ion Ionescu De La Brad", "0233744655", "Basta");
         }
 
         public string DateAdresa()

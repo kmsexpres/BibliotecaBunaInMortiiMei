@@ -1,5 +1,6 @@
-﻿using System;
-using System.Data.Entity;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+
 
 namespace ver4_biblTeo
 {
@@ -10,7 +11,7 @@ namespace ver4_biblTeo
             // NU UITA SA STERGI ASTA
             // Database.SetInitializer(new DropCreateDatabaseIfModelChanges<BookDb>());
 
-           
+
         }
     }
 

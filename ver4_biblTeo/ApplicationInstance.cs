@@ -48,7 +48,7 @@ namespace ver4_biblTeo
             try
             {
                 // aici primesc exceptie in caz ca au fost introduse date proaste
-                newBook = new Book(ID, titlu, autor, detalii, locatie);
+                newBook = new Book(ID, titlu, autor, detalii, Client.GetFakeBiblioteca());
                 //newBook.DataImprumutare = dataImprumut;
             }
             catch(InvalidDataException e)

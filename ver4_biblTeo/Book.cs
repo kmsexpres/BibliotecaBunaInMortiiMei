@@ -4,21 +4,22 @@ using System.Text;
 
 namespace ver4_biblTeo
 {
-    class Book 
+    public class Book 
     {
         public int ID { get; set; }    //nr inventariere gen
         public string Titlu { get; set; }
         public string Autor { get; set; }
         public string Detalii { get; set; }
         public bool EsteImprumutata { get; set; }
-        public string returnare { get; set; }//cred ca DateTime e variabila pt asta nuj -> daca EsteImprumutata e true atunci trebuie introdusa o data pt returnare
 
-        public string SeAflaLa { get; set; }     //ori e in biblioteca, 
+        public Client SeAflaLa { get; set; }     //ori e in biblioteca, 
                                                  //ori e imprumutata la un om si contine datele acestuia
                                                  //biblioteca poate fi considerata ca un "client" special, 
                                                  //io zic ca merge
-
-        public string DataImprumutare { get; set; }   // pt a calcula intarzieri si plm
+        public DateTime returnare { get; set; }
+            //cred ca DateTime e variabila pt asta nuj 
+            // -> daca EsteImprumutata e true atunci trebuie introdusa o data pt returnare
+        public DateTime DataImprumutare { get; set; }   // pt a calcula intarzieri si plm
 
         public Book()
         {
@@ -26,7 +27,7 @@ namespace ver4_biblTeo
             // e necesar sa existe
         }
 
-        public Book(int ID, string titlu, string autor, string detalii, string seAflaLa)
+        public Book(int ID, string titlu, string autor, string detalii, Client seAflaLa)
         {
 
             if (ID < 0) throw new ArgumentException("Trebuie sa introduceti un ID pozitiv");
@@ -37,16 +38,11 @@ namespace ver4_biblTeo
             this.Titlu = titlu;
             this.Autor = autor;
             this.Detalii = detalii;
-            this.SeAflaLa = seAflaLa;   
-                // primesc bib sau direct datele de adresa
-                // nu e treaba mea sa le convertesc aici
+            this.SeAflaLa = seAflaLa;
 
-            if (this.SeAflaLa.Contains("bib"))
-            {
+            if (this.SeAflaLa.Nume.ToLower() == "biblioteca")
                 this.EsteImprumutata = false;
-                this.SeAflaLa = "biblioteca";
-            }
-            else this.EsteImprumutata = true;
+            else this.EsteImprumutata = true;  
         }
 
         public override string ToString()
